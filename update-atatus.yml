@@ -1,0 +1,86 @@
+name: Sync status.lol → README
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'  # every 20 minutes
+  workflow_dispatch:         # manual trigger any time
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # needed to push the README change
+
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Fetch latest status from omg.lol
+        id: status
+        run: |
+          set -euo pipefail
+
+          RESPONSE=$(curl -fsSL "https://api.omg.lol/address/halley/statuses/")
+
+          # Pull the most recent status content and emoji
+          STATUS_TEXT=$(echo "$RESPONSE" | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          statuses = data.get('response', {}).get('statuses', [])
+          if not statuses:
+              print('')
+              sys.exit(0)
+          latest = statuses[0]
+          emoji  = latest.get('emoji', '')
+          status = latest.get('status', '').strip()
+          print(f'{emoji} {status}'.strip())
+          ")
+
+          # Fallback if empty
+          if [ -z "$STATUS_TEXT" ]; then
+            STATUS_TEXT="No status set"
+          fi
+
+          echo "status=$STATUS_TEXT" >> "$GITHUB_OUTPUT"
+
+      - name: Inject status into README
+        run: |
+          set -euo pipefail
+          STATUS="${{ steps.status.outputs.status }}"
+
+          # Replace everything between the anchor comments
+          python3 - "$STATUS" << 'PYEOF'
+          import sys, re, pathlib
+
+          status = sys.argv[1]
+          readme = pathlib.Path('README.md')
+          content = readme.read_text()
+
+          block = (
+              '<!-- STATUS:START -->\n'
+              f'> {status}\n'
+              '<!-- STATUS:END -->'
+          )
+
+          updated = re.sub(
+              r'<!-- STATUS:START -->.*?<!-- STATUS:END -->',
+              block,
+              content,
+              flags=re.DOTALL
+          )
+
+          readme.write_text(updated)
+          print(f'Injected: {status}')
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git diff --quiet README.md && echo "No change, skipping." && exit 0
+
+          git add README.md
+          git commit -m "chore: sync status.lol status [skip ci]"
+          git push
