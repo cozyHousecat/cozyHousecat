@@ -50,4 +50,4 @@ Currently building a LoRaWAN mesh network and documenting everything along the w
 
 ---
 
-MBCS · [BCS](https://bcs.org) · halley@omg.lol
+MBCS · [BCS](https://bcs.org) · cozyhousecat@omg.lol
