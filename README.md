@@ -8,7 +8,7 @@
 
 Infrastructure engineer based in the UK. I build resilient systems with **Azure**, **Linux**, and **Zero Trust**, and spend my evenings breaking things on purpose in my homelab to figure out how they work. Learning through experimentation. Strong opinions about open source.
 
-Currently building a LoRaWAN mesh network and documenting everything along the way.               
+               
 ---
 
 ## // stack
