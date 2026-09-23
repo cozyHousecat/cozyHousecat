@@ -1,9 +1,7 @@
 # Halley Adams
 
 **Infrastructure Engineer · MBCS · CSIS · CIOS · CC**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-060C16?style=flat-square&logo=linkedin&logoColor=3B82E8)](https://linkedin.com/in/halleyadams) [![Credly](https://img.shields.io/badge/Credly-060C16?style=flat-square&logo=credly&logoColor=E040A8)](https://credly.com/users/halleyadams)
-               
+    
 ---
 
 ## // stack
@@ -31,7 +29,3 @@
 ## // github activity
 
 [![GitHub contributions](https://ghchart.rshah.org/3B82E8/cozyHousecat)](https://github.com/cozyHousecat)
-
----
-
-MBCS · [BCS](https://bcs.org) · cozyhousecat@omg.lol
