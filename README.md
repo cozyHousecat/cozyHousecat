@@ -1,4 +1,4 @@
-**Infrastructure Engineer · MBCS · CSIS · CIOS · CC**
+**MBCS · CSIS · CIOS · CC**
     
 ---
 
