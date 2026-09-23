@@ -3,11 +3,6 @@
 **Infrastructure Engineer · MBCS · CSIS · CIOS · CC**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-060C16?style=flat-square&logo=linkedin&logoColor=3B82E8)](https://linkedin.com/in/halleyadams) [![Credly](https://img.shields.io/badge/Credly-060C16?style=flat-square&logo=credly&logoColor=E040A8)](https://credly.com/users/halleyadams)
-
----
-
-Infrastructure engineer based in the UK. I build resilient systems with **Azure**, **Linux**, and **Zero Trust**, and spend my evenings breaking things on purpose in my homelab to figure out how they work. Learning through experimentation. Strong opinions about open source.
-
                
 ---
 
