@@ -8,18 +8,7 @@
 
 Infrastructure engineer based in the UK. I build resilient systems with **Azure**, **Linux**, and **Zero Trust**, and spend my evenings breaking things on purpose in my homelab to figure out how they work. Learning through experimentation. Strong opinions about open source.
 
-Currently building a LoRaWAN mesh network and documenting everything along the way. Member of [The Chartered Institute for IT](https://bcs.org). I believe in infrastructure that serves people, not just SLAs.
-
----
-
-## // currently
-
-|               |                                                                                    |
-| ------------- | ---------------------------------------------------------------------------------- |
-| **role**      | Infrastructure Engineer · Swagelok Central UK                                      |
-| **interests** | Zero Trust · open source · self-hosting · Meshtastic                               |
-| **location**  | United Kingdom                                                                     |
-
+Currently building a LoRaWAN mesh network and documenting everything along the way.               
 ---
 
 ## // stack
