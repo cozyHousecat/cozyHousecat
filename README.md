@@ -14,14 +14,4 @@
 
 [![Windows Server](https://img.shields.io/badge/Windows_Server-060C16?style=flat-square&logo=windows&logoColor=3B82E8)](https://microsoft.com) [![macOS](https://img.shields.io/badge/macOS-060C16?style=flat-square&logo=apple&logoColor=8B6FEF)](https://apple.com) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-060C16?style=flat-square&logo=githubactions&logoColor=3B82E8)](https://github.com/features/actions) [![Linode](https://img.shields.io/badge/Linode-060C16?style=flat-square&logo=linode&logoColor=00A95C)](https://linode.com) [![Caddy](https://img.shields.io/badge/Caddy-060C16?style=flat-square&logo=caddy&logoColor=3B82E8)](https://caddyserver.com)
 
----
-
-## // certifications
-
-[![CompTIA CSIS](https://img.shields.io/badge/CSIS-Secure_Infrastructure_Specialist-0078D4?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/c8ec4dfc-e24b-4e76-80ed-cb880b0d1694) [![CompTIA Security+](https://img.shields.io/badge/Security%2B-CompTIA-0078D4?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/b47ad377-65fc-4226-a9c6-b688fc9f36cb) [![CompTIA Network+](https://img.shields.io/badge/Network%2B-CompTIA-0078D4?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/b47ad377-65fc-4226-a9c6-b688fc9f36cb) [![CompTIA A+](https://img.shields.io/badge/A%2B-CompTIA-0078D4?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/b47ad377-65fc-4226-a9c6-b688fc9f36cb) [![CompTIA CIOS](https://img.shields.io/badge/CIOS-Infrastructure_Ops_Specialist-0078D4?style=flat-square&logo=comptia&logoColor=white)](https://www.credly.com/badges/b47ad377-65fc-4226-a9c6-b688fc9f36cb) [![ISC2 CC](https://img.shields.io/badge/CC-Certified_in_Cybersecurity-005A8E?style=flat-square&logo=isc2&logoColor=white)](https://www.credly.com/badges/dfc29932-3aea-44b0-aaad-abcfe24c289b) [![Azure Fundamentals](https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-gb/users/halleyadams/credentials/baf9a237086a710c) [![Azure AI](https://img.shields.io/badge/AI--900-Azure_AI_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-gb/users/halleyadams/credentials/115293e33caaf502) [![M365](https://img.shields.io/badge/MS--900-M365_Fundamentals-0078D4?style=flat-square&logo=microsoft365&logoColor=white)](https://learn.microsoft.com/en-gb/users/halleyadams/credentials/8bfd47d03b1ef45c) [![SC-900](https://img.shields.io/badge/SC--900-Security_%26_Compliance-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-us/users/halleyadams/credentials/6a6f11de354a7ea8)
-
----
-
-## // github activity
-
 [![GitHub contributions](https://ghchart.rshah.org/3B82E8/cozyHousecat)](https://github.com/cozyHousecat)
