@@ -1,5 +1,3 @@
-# cozyHousecat
-
 **Infrastructure Engineer · MBCS · CSIS · CIOS · CC**
     
 ---
